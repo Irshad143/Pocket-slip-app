@@ -91,7 +91,7 @@ const QuestionDetails = () => {
   //   }]
   // }]
     const location = useLocation()
-    const url = 'http://localhost:3000'
+    const url = 'https://pocket-slip.vercel.app'
 
     const handleShare = () => {
       copy(url+location.pathname)
